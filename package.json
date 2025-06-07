@@ -1,0 +1,15 @@
+{
+  "name": "backend_project",
+  "version": "1.0.0",
+  "description": "A Backend Project",
+  "license": "ISC",
+  "author": "Sumit Paul",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
