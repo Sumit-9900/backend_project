@@ -15,6 +15,10 @@ async function uploadFileToCloudinary (localFilePath) {
         resource_type: 'auto'
     })
 
+    if(fs.existsSync(localFilePath)) {
+        fs.unlinkSync(localFilePath)
+    }
+
     // console.log("file is uploaded on cloudinary ", response);
 
     return response
